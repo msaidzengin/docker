@@ -1,11 +1,15 @@
-### For build
-- docker build -t msaidzengin/website:0.1 .
+## Introduction
+Building a sample website using docker and nginx.
 
-### For running
-- docker run -p 8080:80 msaidzengin/website:0.1
+## Usage
+#### For building
+`docker build -t msaidzengin/website:0.1 .`
 
-### Website link
-- http://localhost:8080
+#### For running
+`docker run -p 8080:80 msaidzengin/website:0.1`
 
-### For closing
-- docker kill <container-id>
+#### Website link
+`http://localhost:8080`
+
+#### For closing
+`docker kill <container-id>`
